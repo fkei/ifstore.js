@@ -43,7 +43,7 @@
       }
 
       window.location = options.storeLink;
-    }, 100);
+    }, deeplink.settings.wait);
 
     window.location = options.urlScheme;
   };
